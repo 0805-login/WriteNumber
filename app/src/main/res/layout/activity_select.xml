@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--表格布局管理器-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F0"
+    tools:context=".SelectActivity">
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on1" />
+        <ImageView
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on2" />
+        <ImageView
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on3" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on4" />
+        <ImageView
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on5" />
+        <ImageView
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on6" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on7" />
+        <ImageView
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on8" />
+        <ImageView
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on9" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageView
+            android:id="@+id/zero"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/on0" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/click"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="70dp"/>
+
+        </RelativeLayout>
+
+
+    </TableRow>
+
+
+
+
+</TableLayout>
